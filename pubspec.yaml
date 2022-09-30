@@ -1,0 +1,73 @@
+name: blood_donor
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  buildcondition: ^0.0.4
+  sizer: ^2.0.15
+  bloc: ^8.0.3
+  flutter_bloc: ^8.0.1
+  intl: ^0.17.0
+  flutter_launcher_icons: ^0.9.3
+  easy_localization: ^3.0.0
+  flutter_staggered_animations: ^1.0.0
+  flutter_staggered_grid_view: ^0.6.1
+  google_fonts: ^3.0.1
+  shimmer: ^2.0.0
+  image_picker: ^0.8.5+3
+  url_launcher: ^6.1.6
+  google_maps_flutter: ^2.2.1
+  geolocator: ^9.0.2
+  flutter_spinkit: ^5.1.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - lang/
+
+  fonts:
+    - family: GoogleSans
+      fonts:
+        - asset: assets/fonts/GoogleSansRegular.ttf
+    - family: SouthernAire
+      fonts:
+        - asset: assets/fonts/SouthernAire.ttf
+    - family: Iconly-Broken
+      fonts:
+        - asset: assets/fonts/icons.ttf
+
+ 
